@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 80" fill="none">
+  <path d="M40 60 Q400 0 760 60" stroke="#F84565" stroke-width="4" fill="none" opacity="0.9"/>
+  <path d="M80 62 Q400 16 720 62" fill="url(#screenGlow)" opacity="0.25"/>
+  <defs>
+    <linearGradient id="screenGlow" x1="400" y1="0" x2="400" y2="80" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F84565"/>
+      <stop offset="1" stop-color="#F84565" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <text x="400" y="78" text-anchor="middle" fill="#9ca3af" font-size="14" font-family="Outfit, Arial">SCREEN SIDE</text>
+</svg>
